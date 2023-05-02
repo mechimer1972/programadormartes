@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<script>
+		const numero = ["7", "34", "38", "22", "89"];
+
+		console.log(numero.length);
+		console.log(numero); //5
+		
+		const primero = numero[0]; //7
+		
+		const ultimo = numero[numero.length-1]; // 89
+        numero.forEach(function(Element, index, array) {
+            console.log(Element, index);
+            })          
+	</script>
+    
+    <body>
+        <script>
+            const num1 = parseInt(prompt('Ingrese primer número:', ''));
+            const num2 = parseInt(prompt('Ingrese segundo número:', ''));
+            const num3 = parseInt(prompt('Ingrese tercer número:', ''));
+    
+            if (num1 > num2 && num1 > num3) {
+                document.write(`el mayor es el  ${num1}`);
+            } else if (num2 > num3) {
+                document.write(`el mayor es el  ${num2}`);
+            } else {
+                document.write(`el mayor es el  ${num3}`);
+            }
+        </script>
+</body>
+</html>
