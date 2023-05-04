@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="Tarea1_M2U1.css">
+</head>
+<body>
+<head>
+	<title>Cambiar el color del fondo haciendo click en los cuadrados</title>
+</head>
+<body>
+	<div class="square" style="background-color: pink;" onclick="changeColor(this)"></div>
+	<div class="square" style="background-color: aqua;" onclick="changeColor(this)"></div>
+	<div class="square" style="background-color: violet;" onclick="changeColor(this)"></div>
+
+	<script>
+		function changeColor(square) {
+			document.body.style.backgroundColor = square.style.backgroundColor;
+		}
+	</script>
+</body>
+</html>
