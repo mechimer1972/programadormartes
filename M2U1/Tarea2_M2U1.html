@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contador de caracteres para textarea</title>
+</head>
+<body>
+	<textarea id="formulario" rows="10" cols="50"></textarea>
+	<div id="Contador"></div>
+
+	<script>
+		const textarea = document.getElementById('formulario');
+		const Contador = document.getElementById('Contador');
+
+		textarea.addEventListener('input', () => {
+			Contador.textContent = `${textarea.value.length} Cantidad de Caracteres`;
+		});
+	</script>
+</body>
+</html>
