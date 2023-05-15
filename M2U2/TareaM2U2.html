@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiarybg" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Travelling.com
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-luggage" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M6 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+          <path d="M9 6v-1a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1" />
+          <path d="M6 10h12" />
+          <path d="M6 16h12" />
+          <path d="M9 20v1" />
+          <path d="M15 20v1" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M14.639 10.258l4.83 -1.294a2 2 0 1 1 1.035 3.863l-14.489 3.883l-4.45 -5.02l2.897 -.776l2.45 1.414l2.897 -.776l-3.743 -6.244l2.898 -.777l5.675 5.727z" />
+          <path d="M3 21h18" />
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hoteles</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Paquetes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Por Destino Turístico</a></li>
+              <li><a class="dropdown-item" href="#">Por Fecha </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Por Continente</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> 
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://fakeimg.pl/1500x400?text=Compañías+Aéreas" class="d-block w-100" alt="aeropuerto">
+      </div>
+      <div class="carousel-item">
+        <img src="https://fakeimg.pl/1500x400?text=Destinos" class="d-block w-100" alt="...">
+      </div>
+       <div class="carousel-item">
+         <img src="https://fakeimg.pl/1500x400?text=Compañías+Aéreas" class="d-block w-100" alt="Compañías Aéreas">
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="container" style="background-color: aqua;">
+        <div class="row">
+            <div class="col" style="background-color: rgb(184, 165, 202);">
+            <h3>Compañía Aérea
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-skyscraper" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 21l18 0" />
+                <path d="M5 21v-14l8 -4v18" />
+                <path d="M19 21v-10l-6 -4" />
+                <path d="M9 9l0 .01" />
+                <path d="M9 12l0 .01" />
+                <path d="M9 15l0 .01" />
+                <path d="M9 18l0 .01" />
+              </svg>
+            </h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Qatar Airways
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Qatar Airways, una aerolínea galardonada con múltiples premios, fue anunciada como la "Aerolínea del Año" en los World Airline Awards 2022, administrados por la organización internacional de calificación de transporte aéreo, Skytrax. La aerolínea sigue siendo sinónimo de excelencia al haber ganado el premio principal por séptima vez sin precedentes (2011, 2012, 2015, 2017, 2019, 2021 y 2022), al tiempo que ha sido nombrada 'Mejor clase Business del mundo', 'Mejor clase Business Lounge Dining' del mundo' y 'Mejor aerolínea en Oriente Medio'.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      American Airlines
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">American fue fundada hace más de 95 años y tiene profundas raíces históricas que lideran la industria a través de la innovación y como pioneros, que incluyen la contratación del primer piloto de raza negra de una aerolínea comercial de EE. UU., la contratación de la primera piloto femenina de una aerolínea comercial de EE. UU., el lanzamiento del primer programa de lealtad entre todas las principales aerolíneas y ser la primera aerolínea en ofrecer salones de aeropuerto.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Iberia
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Somos la primera aerolínea de España y nuestra vocación es ser siempre la mejor opción a la hora de reservar las vacaciones o viajes de trabajo.
+
+                      Con una flota de 157 aviones, ofrecemos una amplia oferta de destinos, 134 en Europa, América, África, Oriente Medio y Asia, y unos 270 adicionales en colaboración con nuestros socios. En esa red global, juegan un papel especial las conexiones entre Europa y América Latina, donde estamos orgullosos de ser la aerolínea líder y trabajamos cada día por seguir siendo merecedores de ese liderazgo.
+                      
+                      Somos Iberia. ¿Vienes a bordo?</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9" style="background-color: rgba(150, 223, 166, 0.548);">
+                <h2>Destino
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-search" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M21 12a9 9 0 1 0 -9 9" />
+                    <path d="M3.6 9h16.8" />
+                    <path d="M3.6 15h7.9" />
+                    <path d="M11.5 3a17 17 0 0 0 0 18" />
+                    <path d="M12.5 3a16.984 16.984 0 0 1 2.574 8.62" />
+                    <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M20.2 20.2l1.8 1.8" />
+                  </svg>
+                </h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Continente Europeo
+                        </button>
+                      </h2>
+                            
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>España</li>
+                                <li>Francia</li>
+                                <li>Alemania</li>
+                                <li>Italia</li>
+                                <li>Portugal</li>
+                                <li>Países Bajos</li>
+                            </ul>
+                            <strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Continente Asiático
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Japón</li>
+                            <li>Indonesia</li>
+                            <li>China</li>
+                            <li>Corea del Sur</li>
+                            <li>Tailandia</li>
+                            <li>Malasia</li>
+                        </ul>
+                          <strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Continente Americano
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>EE.UU.</li>
+                            <li>México D.F. ></li>
+                            <li>Panamá</li>
+                            <li>Brasil</li>
+                            <li>Colombia</li>
+                            <li>Argentina</li>
+                        </ul>
+                          <strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div class="col-3" style="background-color: rgb(235, 164, 197);">
+       <h3>Clase
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-armchair-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 10v-4a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v4" />
+          <path d="M16 15v-2a3 3 0 1 1 3 3v3h-14v-3a3 3 0 1 1 3 -3v2" />
+          <path d="M8 12h8" />
+          <path d="M7 19v2" />
+          <path d="M17 19v2" />
+        </svg>
+       </h3>  
+                
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Economy
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Ésta clase está diseñada para viajeros con presupuesto en todas y cada una de las principales aerolíneas. La clase económica es el asiento de clase aérea de viaje más bajo. Proporciona una pequeña pantalla frente a su asiento para videos, una manta, auriculares, revistas, una almohada, comida y bebidas limitadas.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Business
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Cuentas con más espacio para las piernas, comida (con varias opciones para elegir) y más facilidades a la hora de tener tu propia pantalla, enchufes para conectar tus dispositivos, wifi y más. En algunas aerolíneas, la clase business también incluye salas de espera exclusivas en los aeropuertos.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      First Class
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A diferencia de clase turista, la primera clase cuenta con más facilidades, comodidad y beneficios; el asiento del avión es más amplio y reclinable; la atención de parte de las azafatas es personalizado; la comida que sirven son de calidad premium, así como los servicios, ya que tendrás acceso a películas, series y canales de música.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="background-color: rgb(170, 245, 241);">
+                <h4>Formulario de Reseñas
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-writing-sign" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 19c3.333 -2 5 -4 5 -6c0 -3 -1 -3 -2 -3s-2.032 1.085 -2 3c.034 2.048 1.658 2.877 2.5 4c1.5 2 2.5 2.5 3.5 1c.667 -1 1.167 -1.833 1.5 -2.5c1 2.333 2.333 3.5 4 3.5h2.5" />
+                    <path d="M20 17v-12c0 -1.121 -.879 -2 -2 -2s-2 .879 -2 2v12l2 2l2 -2z" />
+                    <path d="M16 7h4" />
+                  </svg>
+                </h4>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Cuéntenos brevemente su experiencia <button>ENVIAR</button>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mood-smile-beam" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+                        <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
+                        <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
+                        <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
+                      </svg>
+                    </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
